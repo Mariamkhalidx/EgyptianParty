@@ -1,0 +1,188 @@
+/*background&nav*/
+h1 ,h2 h3 ,h4 ,h5 ,h6{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+#Contact{
+  font-family: "Roboto", sans-serif;
+
+}
+#Home{
+  font-family: "Roboto", sans-serif;
+
+}
+.toggle-element{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+.main{
+  background-image: url(../images/events-heavenly-header.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 95vh;
+  position: relative;
+}
+.main-layer{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(214, 46, 51 , 0.6);
+  display: flex;
+
+  align-items: center;
+}
+.bg-black{
+  background-color: black;
+}
+ .navbar-toggle-icon {
+  color: white;
+}
+
+.sidenav {
+  height: 100%; 
+  width: 0;
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #111; 
+  
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s; 
+}
+.sidenav ha{
+  font-size: 120px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #D62E33ed;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/*toggle*/
+.toggle{
+  width: 70%;
+
+}
+.toggle-element {
+  background-color: #e68285;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.toggle-content {
+  display: none; 
+  padding: 10px;
+  background-color: #ccc;
+  margin-bottom: 5px;
+}
+
+
+/*countdown*/
+.countdown{
+  background-image: url(../images/Join_groß_1920px-x-616px-1.png);
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  position: relative;
+  height: 330px;
+}
+.count{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+    color: white;
+}
+
+.container
+{
+    padding: 100px 0px;
+}
+
+.tim
+{
+    
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+}
+/*contact*/
+.icon-border{
+  width: 50px;
+  height: 50px;
+margin-top: 5px;
+padding: 10px;
+  border-style: solid;
+  background-color: white;
+  margin-left: 10px;
+  border-color: gray;
+ 
+}
+.red{
+  color: #D62E33;
+
+}
+.btn-red{
+background-color: #D62E33ed;
+color: white;
+border-radius: 0;
+}
+.btn-red:hover{
+  background-color: #D62E33ed;
+  color: white;
+
+  }
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#charCount {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+

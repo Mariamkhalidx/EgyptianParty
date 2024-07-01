@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmarke</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<!--theb background &navbar-->
+<section>
+
+    <div class="main">
+        <div class="main-layer">
+<nav>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#Home">Home</a>
+        <a href="#Duration">Duration</a>
+        <a href="#Details">Details</a>
+        <a href="#Contact">Contact</a>
+      </div>
+      
+      <span class="text-white fs-6 px-4" onclick="openNav()"><i class="fa-solid fa-bars fs-3"></i> <span class="fs-3 ps-2 fw-bolder ">Open</span></span>
+      
+
+
+</nav>
+<div class="container text-white text-center ">
+    <h5 class="fs-1 fw-bolde mb-4 me-5 pe-5">ُEgyption Party</h5>
+    <div > <p class="fw-lighter me-5 pe-5">Let's have Fun</p>
+       </div>
+    </div>
+    
+    </div>
+
+</section>
+<!--singer toggle-->
+<section class="container pt-5 toggle-container" id="Home">
+<div class="toggle mx-auto">
+    <div class="open text-center text-white py-3 toggle-element" >ٍSinger one</div>
+    <div class="desc text-center toggle-content">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+</div>
+<div class="toggle mx-auto">
+    <div class="open text-center text-white py-3 toggle-element" >Singer two</div>
+    <div class="desc text-center toggle-content">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+</div>
+<div class="toggle mx-auto">
+    <div class="open text-center text-white py-3 toggle-element" >Singer three</div>
+    <div class="desc text-center toggle-content">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+</div>
+<div class="toggle mx-auto">
+    <div class="open text-center text-white py-3 toggle-element" >Singer four</div>
+    <div class="desc text-center toggle-content">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+</div>
+</section>
+
+<!--countdown-->
+<section id="Duration">
+    <div class="countdown">
+        <div class="count">
+            <div class="container text-center">
+                <div class="row">
+
+                <div  class="col-md-3">
+                    <div class="tim" >
+                        <span class=" days" id="days">00</span>
+                    </div>
+                </div>
+                
+                <div class="col-md-3">
+                    <div class="tim" >
+                        <span class=" hours" id="hours">00</span>
+                    </div>
+                </div>
+
+                <div  class="col-md-3">
+                    <div class="tim" >
+                        <span class=" minutes" id="min">00</span>
+                        </div>
+                </div>
+                
+                <div  class="col-md-3">
+                    <div class="tim" >
+                        <span class="seconds" id="sec">00</span>
+                        </div>
+                </div>
+            
+            </div>
+            </div>
+        </div>
+        <div id="countdown"></div>
+    </div>
+
+</section>
+<!--contact -->
+<section id="Contact">
+        
+    <div class="container">
+        
+        <div class="head">
+            <h2 class="fw-bolder">Join Us</h2>
+            <p class="text-center fw-lighter">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+        
+        <div class="row">
+        
+            <div class="col-md-6">
+            
+                <div class="con-info">
+                
+                    <h3><strong>CONTACT INFO</strong></h3>
+                    <p class="fw-lighter">Why you should hire me writeup Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque nascetur ridiculus mus.
+
+                    </p>
+                    
+                    <div class="icons">
+                    <p class="fw-lighter text-center mb-4"><i class="fa fa-map-marker"></i> New Street 22545, Nexa Road, New York City, USA</p>
+                    
+                    <p class=" fw-lighter text-center mb-4"><i class="fa fa-envelope"></i> <span class="red">hello@uigrid.com</span></p>
+                    <p class="fw-lighter text-center mb-4" ><i class="fa fa-phone"></i> 001-000-000-000</p>
+                    </div>
+                    
+                    
+                    <div class="text-center ">
+                    
+                       <span class="icon-border"> <i class="fab fa-twitter fa-fw"></i></span>
+                       <span class="icon-border"> <i class="fab fa-facebook-f fa-fw"></i></span>
+                       <span class="icon-border"><i class="fab fa-instagram fa-fw"></i></span> 
+                       <span class="icon-border"><i class="fab fa-dribbble fa-fw"></i></span> 
+                       <span class="icon-border"><i class="fab fa-pinterest fa-fw"></i></span> 
+                    
+                    </div>
+                
+                </div>
+            
+            </div>
+            
+            <div class="col-md-6">
+            
+                <form>
+                
+                    <input class="form-control my-4" type="text" placeholder="Enter Name">
+                    <input class="form-control my-4 " type="email" placeholder="Enter Email">
+                        <textarea class="form-control" id="myTextarea" rows="4" cols="50" maxlength="100"></textarea>
+                        <div id="charCount">100  Characyer Reamining</div>
+                    
+                    <br>
+                    <button  class="btn btn-red py-2 my-4">Send Message</button>
+                
+                </form>
+            
+            </div>
+        
+        
+        </div>
+    
+        
+    
+    </div>
+
+</section>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
